@@ -15,7 +15,7 @@ app.post("/login", login)
 
 //Show routes:
 app.get("/shows", getShows)
-app.post("/shows", addShow)
+app.post("/shows", addShow)// WE WANT TO PROTECT THIS ROUTE
 
 app.listen(3000, () => console.log(`Listening on http://localhost:3000`))
 //use to test locally without using firebase emulators
